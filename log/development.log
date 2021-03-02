@@ -1015,3 +1015,36 @@ Processing by HellosController#index as HTML
 Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.0ms | Allocations: 5150)
 
 
+Started GET "/hellos/index" for 172.18.0.1 at 2021-03-02 04:38:07 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HellosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hellos/index.html.erb within layouts/application
+  Rendered hellos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.5ms | Allocations: 3613)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms | Allocations: 4040)
+
+
+Started GET "/hellos/index" for 172.18.0.1 at 2021-03-02 04:40:35 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HellosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hellos/index.html.erb within layouts/application
+  Rendered hellos/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 3942)
+Completed 200 OK in 45ms (Views: 43.8ms | Allocations: 5231)
+
+
+Started GET "/hellos/index" for 172.18.0.1 at 2021-03-02 04:40:43 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HellosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering hellos/index.html.erb within layouts/application
+  Rendered hellos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 3683)
+Completed 200 OK in 42ms (Views: 40.7ms | Allocations: 4357)
+
+

@@ -3,7 +3,7 @@ class HellosController < ApplicationController
 
   # GET /hellos or /hellos.json
   def index
-    # @hellos = Hello.all
+    @name = 'Liam'
   end
 
   # GET /hellos/1 or /hellos/1.json
